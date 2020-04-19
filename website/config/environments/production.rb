@@ -29,7 +29,7 @@ Rails.application.configure do
   config.assets.compile = false
 
   # Serve up static assets
-  config.serve_static_assets = true
+  config.serve_static_assets = false
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
