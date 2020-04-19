@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## TODO:
+- Local business that are open in some capacity.
+- Procfile
+- load up some react
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### useful in the beginning:
+- assets/stylesheets/application.css
+- javascript/components/
+- javascript/routes/Index.jsx
