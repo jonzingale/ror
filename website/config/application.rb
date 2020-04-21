@@ -32,6 +32,24 @@ module Website
     # This was placed here in the struggle to get fonts into the assets pipeline.
     # config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
+    # Precompile all assets
+    config.assets.precompile << Proc.new do |path|
+      if path =~ /\.(css|js)\z/
+        full_path = Rails.application.assets.resolve(path).to_path
+        app_assets_path = Rails.root.join('app', 'assets').to_path
+        if full_path.starts_with? app_assets_path
+          puts "including asset: " + full_path
+          true
+        else
+          puts "excluding asset: " + full_path
+          false
+        end
+      else
+        false
+      end
+    end
+
+
     # Don't generate system test files.
     config.generators.system_tests = nil
     config.serve_static_assets = true
