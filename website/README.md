@@ -1,4 +1,4 @@
-# README
+# Rails and React on Heroku
 
 - locally:
   
@@ -64,7 +64,7 @@ rails s --binding=127.0.0.1
 
 ```
 
-Should just work and seems to work:
+### Deploy.sh
 ```
 RAILS_ENV=production bundle exec rake assets:precompile
 git add .
