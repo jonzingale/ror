@@ -30,11 +30,10 @@ module Website
     # the framework and any gems in your application.
 
     # This was placed here in the struggle to get fonts into the assets pipeline.
-    # config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
     # Don't generate system test files.
     config.generators.system_tests = nil
     config.serve_static_assets = true
-    # config.assets.initialize_on_precompile = false
   end
 end
