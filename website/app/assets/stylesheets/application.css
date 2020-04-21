@@ -1,3 +1,5 @@
+@import 'font.css';
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,6 +15,12 @@
  *= require_tree .
  *= require_self
  */
+
+.otherfont {
+  /*font-family: 'Oranienbaum';*/
+  /*font-family: 'Moon Light';*/
+  font-family: 'Moon Bold';
+}
 
 .bg_primary-color {
   background-color: #FFFFFF;
