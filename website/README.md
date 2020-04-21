@@ -63,3 +63,11 @@ yarn install --check-files
 rails s --binding=127.0.0.1
 
 ```
+
+Should just work and seems to work:
+```
+RAILS_ENV=production bundle exec rake assets:precompile
+git add .
+git ci -m "assets precompile"
+git push heroku master
+```
