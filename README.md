@@ -18,6 +18,9 @@
 ### Rails as API
 `rails new toyapp --api --database=postgresql`
 
+ping `securities`:
+`curl http://127.0.0.1:3000/securities`
+
 
 ### Deploy.sh
 ```
