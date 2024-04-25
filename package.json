@@ -1,0 +1,19 @@
+{
+  "name": "ror",
+  "version": "1.0.0",
+  "description": "## ruby version: `rvm use ruby-3.3.0`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonzingale/ror.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonzingale/ror/issues"
+  },
+  "homepage": "https://github.com/jonzingale/ror#readme"
+}
