@@ -3,6 +3,9 @@
 ## ruby version:
 `rvm use ruby-3.3.0`
 
+## redis:
+`brew install redis`
+
 ## gems:
 `gem install nokogiri -v 1.13.10`
 `rails-7.1.3.2`
@@ -15,11 +18,17 @@
 `rails server`
 `http://127.0.0.1:3000/index`
 
-### Rails as API
+## Rails as API
 `rails new toyapp --api --database=postgresql`
 
 ping `securities`:
 `curl http://127.0.0.1:3000/securities`
+
+## sidekiq:
+`rails c`
+`MyFirstJob.perform_async "Affan", 31`
+`exit`
+`bundle exec sidekiq`
 
 
 ### Deploy.sh
