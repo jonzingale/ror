@@ -1,5 +1,14 @@
 # Rails and React on Heroku
 
+## ruby version:
+`rvm use ruby-3.3.0`
+
+## gems:
+`gem install nokogiri -v 1.13.10`
+`rails-7.1.3.2`
+
+
+/////////////////////////////////
 - locally:
   
   `rails s --binding=127.0.0.1`
@@ -7,10 +16,6 @@
 - production:
 
   `http://stark-falls-27998.herokuapp.com/`
-
-## TODO:
-- Local business that are open in some capacity.
-- migrate website here
 
 ## Yarn not Node
 `yarn add react-router-dom bootstrap jquery popper.js`
