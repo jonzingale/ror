@@ -6,6 +6,14 @@
 ## gems:
 `gem install nokogiri -v 1.13.10`
 `rails-7.1.3.2`
+`pg-1.5.6`
+
+## create rails with postgres
+`rails new myapp --database=postgresql`
+
+## fire it up:
+`rails server`
+`http://127.0.0.1:3000/index`
 
 
 /////////////////////////////////
