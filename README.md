@@ -15,6 +15,10 @@
 `rails server`
 `http://127.0.0.1:3000/index`
 
+### Rails as API
+`rails new toyapp --api --database=postgresql`
+
+
 ### Deploy.sh
 ```
 RAILS_ENV=production bundle exec rake assets:precompile
